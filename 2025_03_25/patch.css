@@ -1,0 +1,33 @@
+/* @author demi */
+
+html.visual-refresh {
+	--custom-app-top-bar-height: 0;
+
+	div[class^="bar_"][data-windows="false"] {
+		display: contents;
+	
+		div[class^="leading_"] {
+			z-index: 101;
+			top: 2.6vh;
+			left: 59vw;
+		}
+	
+		div[class^="title_"] {
+			display: none;
+		}
+		
+		div[class^="trailing_"] {
+			z-index: 101;
+			top: 2.6vh;
+			left: 59vw;
+		
+			a[href="https://support.discord.com"] {
+				display: none;
+			}
+		}
+	}
+}
+
+nav[class^="wrapper_"][class*=" guilds_"] {
+	margin-top: 1vh;
+}

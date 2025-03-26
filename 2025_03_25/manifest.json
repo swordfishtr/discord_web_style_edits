@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Discord style patch 1",
+    "description": "Removes top bar, repositions top bar buttons",
+    "version": "0.1",
+    "homepage_url": "https://github.com/swordfishtr/discord_web_style_edits",
+    "icons": {
+        "48": "icon.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://discord.com/channels/*"],
+        "css": ["patch.css"]
+    }]
+}
