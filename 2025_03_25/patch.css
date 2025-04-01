@@ -26,6 +26,13 @@ html.visual-refresh {
 			}
 		}
 	}
+
+	/* Discord ads. What have we come to */
+	div[class^="notAppAsidePanel_"] >
+	div[class^="layerContainer_"] >
+	div[class^="wrapper__"] {
+		display: none;
+	}
 }
 
 nav[class^="wrapper_"][class*=" guilds_"] {

@@ -1,11 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Discord style edits",
-    "description": "(2025-03-25) Removes top bar, repositions top bar buttons",
-    "version": "0.1",
+    "description": "2025-03-25",
+    "version": "0.2",
     "homepage_url": "https://github.com/swordfishtr/discord_web_style_edits",
     "icons": {
-        "16": "icon.png"
+        "48": "icon.png"
     },
     "content_scripts": [{
         "matches": ["https://discord.com/channels/*"],
